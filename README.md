@@ -26,10 +26,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  
 </details>
 
-
-
-
-
 ## Je website
 
 <details open>
@@ -40,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home page (van-ons.nl/)
-  <img src="readme-images/van-ons_home.PNG" width="375px" alt="van_ons_homepage">
+  <img src="readme-images/mobile_home1.png" width="375px" alt="homepage van Van Ons">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Diensten (van-ons.nl/diensten)
-  <img src="readme-images/van-ons_diensten.PNG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/mobile_diensten.png" width="375px" alt="pagina over diensten van Van Ons">
  
 </details>
 
