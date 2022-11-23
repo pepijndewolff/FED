@@ -18,8 +18,12 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
+	--header-color:white;
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#003CFB;
+	margin: 0;
+	padding: 0;
+
 }
 
 
@@ -31,4 +35,37 @@ button, summary {
 /****************/
 
 /* jouw code */
+
+.visually-hidden {
+	position: fixed;
+	top: 0;
+	left: -9999em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Outfit', sans-serif;
+}
+
+
+header {
+	background-color: var(--color-background);
+	color: var(--header-color);
+	display: flex;
+	max-width: 100%;
+}
+
+header img {
+	width: 30%;
+	margin: auto;
+}
+
+#welkom-bij-van-ons img {
+	max-width: 100%;
+	
+
+}
+
+
 
