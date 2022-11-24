@@ -113,11 +113,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Laura        | Youri          | Pepijn    | student 4        |
-  | ---          | ---            | ---       | 
-  | Waar beginnen met CSS | Hoe moet header eruit zien             | Is mijn html semantisch   |     |
-  |  |  |  | |
-  | ...            | ...                | ...          | ...              |
+  | Laura           | Youri          | Pepijn       |
+  | ---             | ---            | ---          | 
+  | Waar beginnen   | Hoe moet mijn  | Is mijn html |
+  | met CSS         | header eruit   | Semantisch   |
+  |                 | zien?          |              |
 
 
   ### Verslag van meeting
