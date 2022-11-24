@@ -21,8 +21,8 @@ button, summary {
 	--header-color:white;
 	--color-text:#111;
 	--color-background:#003CFB;
-	margin: 0;
-	padding: 0;
+	--section-background:#F2F2F2;
+
 
 }
 
@@ -48,17 +48,29 @@ body {
 	font-family: 'Outfit', sans-serif;
 }
 
+body li {
+	list-style-type: none;
+}
+
+body a {
+	text-decoration: none;
+}
 
 header {
 	background-color: var(--color-background);
 	color: var(--header-color);
 	display: flex;
+	justify-content: space-between;
 	max-width: 100%;
 }
 
 header img {
-	width: 30%;
+	width: 20%;
 	margin: auto;
+}
+
+main section:first-of-type {
+	background-color: var(--section-background);
 }
 
 #welkom-bij-van-ons img {
