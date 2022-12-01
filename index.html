@@ -10,89 +10,116 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">	
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+	<!-- HEADER -->
 	<header>
 		<img src="images/van-ons_logo.png" alt="header logo van Ons">
+		<button>menu</button>
+
+		<!-- NAVIGATIE -->
 		<nav>
+			<button>sluit</button>
 			<ul>
-				<li>
+				<li class="grote-links-nav">
 					<a href="#">Digitale Slagkracht</a>
 				</li>
-				<li>
+				<li class="grote-links-nav">
 					<a href="#">Diensten</a>
 				</li>
-				<li>
+				<li class="grote-links-nav">
 					<a href="#">Cases</a>
 				</li>
-				<li>
+				<li class="grote-links-nav">
 					<a href="#">Over Ons</a>
 				</li>
-				<li>
+				<li class="grote-links-nav">
 					<a href="#">Contact</a>
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">Werkwijze</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">Vacatures</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">FAQ</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">Zoeken</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">Podcast</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">Blog</a> 
 				</li>
-				<li>
+				<li class="kleine-links-nav">
 					<a href="#">English</a> 
 				</li>
 			</ul>
+			
 		</nav>
 	</header>
 
 	<main>
+		<!-- VERBORGEN KOP 1 -->
 		<h1 class="visually-hidden">Van Ons home page</h1>
 
+		<!-- ZICHTBAAR KOP 2 -->
 		<h2>Laten we samen bouwen aan jouw platform</h2>
 		<a href="diensten.html">Bekijk onze diensten</a>
 		
-		<section id="welkom-bij-van-ons">
+		<!-- MAIN SECTIE 1 - "WELKOM BIJ VAN ONS" -->
+		<section class="card-style">
 			<h2>Welkom bij Van Ons</h2>
 			<p>Nieuwe digitale kanalen bedenken, bouwen en met elkaar integreren. Voor een betere ervaring voor de eindgebruiker en efficiëntere processen voor onze opdrachtgevers. Daar zijn wij goed in. Hoe wij dit doen? Daar zijn we heel open over!</p>
 			<a href="#">Meer over Van Ons</a>
-			<img src="images/welkom_bij_van_ons.jpeg" alt="afbeelding van team op kantoor">
+			<img class="card-style-img" src="images/welkom_bij_van_ons.jpeg" alt="afbeelding van team op kantoor">
 		</section>
 
+		<!-- MAIN SECTIE 2 - 'WAT WIJ HEBBEN GEDAAN' -->
 		<section>
 			<h2>Wat wij hebben gedaan</h2>
-			<h3>Een overzicht van een aantal cases waar wij aan gewerkt hebben.</h3>
+			<p>Een overzicht van een aantal cases waar wij aan gewerkt hebben.</p>
 			
 			<ul>
-				<li>
-					<h4>De persgroep / indebuurt</h4>
-					<p>Een platform van meer dan 40 sites met lokale nieuwsvoorziening</p>
-					<a href="#">Bekijk deze case</a>
+
+				<li class="card-style">
+					<div>
+						<img class="card-style-img" src="images/in-de-buurt.jpg" alt="banner afbeelding in de buurt">
+					</div>
+
+					<div>
+						<h4>De persgroep / indebuurt</h4>
+						<p>Een platform van meer dan 40 sites met lokale nieuwsvoorziening</p>
+						<a href="#">Bekijk deze case</a>
+					</div>
 				</li>
-				<li>
-					<h4>Mediacourant</h4>
-					<p>Mediacourant; gebouwd voor een miljoenenpubliek</p>
-					<a href="#">Bekijk deze case</a>
+
+				<li class="card-style">
+					<div>
+						<img class="card-style-img" src="images/mediacourant.jpg" alt="banner afbeelding van Mediacourant">
+					</div>
+
+					<div>
+						<h4>Mediacourant</h4>
+						<p>Mediacourant; gebouwd voor een miljoenenpubliek</p>
+						<a href="#">Bekijk deze case</a>
+					</div>
 				</li>
+
 			</ul>
 
 			<a href="#">Bekijk alle cases</a>
 		</section>
 
+		<!-- MAIN SECTIE 3 - "HOE WERKEN WE" -->
 		<section>
 			<h2>Hoe werken we</h2>
 			<p>Nou, daar zijn we heel makkelijk in.</p>
@@ -127,15 +154,19 @@
 
 		</section>
 
+		<!-- MAIN SECTIE 4 - "OP DE HOOGTE BLIJVEN" -->
 		<section>
 			<h3>Op de hoogte blijven</h2>
 			<p>Af en toe versturen wij een nieuwsbrief. Niet te lang, niet te vaak. Mooie opgeleverde projecten en opmerkelijke nieuwtjes. En soms een uitnodiging voor een leuk evenement. Interesse?</p>
-			<label for="email"></label>
-			<input type="email" name="email" placeholder="Jouw email adres">
-			<input type="submit" value="Inschrijven">
+			<form action="">
+				<label for="email">Jouw e-mailadres</label>
+				<input id="email" type="email" name="email" placeholder="Jouw e-mailadres">
+				<button type="submit">Inschrijven</button>
+			</form>
 
 		</section>
 
+		<!-- MAIN SECTIE 5 - CALL TO ACTION MESSAGE -->
 		<section>
 			<p>Laten we samenwerken aan nóg meer digitale slagkracht</p>
 			<p>Ben jij er klaar voor?</p>
@@ -150,6 +181,7 @@
 
 	<footer>
 
+		<!-- FOOTER SECTIE -->
 		<section>
 			<h4>Altijd helemaal up to date over Van Ons</h4>
 			<p>Volg Van Ons op sociale media en mis nooit een blogpost, case of leuke nieuwtjes en updates over de ontwikkelingen bij Van Ons.</p>
