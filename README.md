@@ -12,11 +12,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Pepijn de Wolff
+ Pepijn de Wolff
 
   #### Je startniveau:
   Blauw
@@ -26,21 +26,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  
 </details>
 
+
+
+
+
 ## Je website
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://van-ons.nl/
+  https://www.guidion.net
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home page (van-ons.nl/)
-  <img src="readme-images/mobile_home1.png" width="375px" alt="homepage van Van Ons">
+  Guidion.net  
+  <img src="readme-images/screenshot_website_Guidion.png" width="375px" alt="Homepage Guidion Mobile">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Diensten (van-ons.nl/diensten)
-  <img src="readme-images/mobile_diensten.png" width="375px" alt="pagina over diensten van Van Ons">
+  Guidion.net/monteur-worden 
+  <img src="readme-images/screenshot_website_Guidion2.png" width="375px" alt="Monteur Worden Guidion Mobile">
  
 </details>
 
@@ -48,7 +52,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details >
+<details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
@@ -113,21 +117,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Laura           | Youri          | Pepijn       |
-  | ---             | ---            | ---          | 
-  | Waar beginnen   | Hoe moet mijn  | Is mijn html |
-  | met CSS         | header eruit   | Semantisch   |
-  |                 | zien?          |              |
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - meta aanpassen; taal, author.
-  - html niet in uppercase schrijven voor google screenreader; wordt gezien als afkorting
-  - font style in head boven css stylesheet
-  - button in header en button in nav
-  - device toolbar niet gebruiken
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 
@@ -137,7 +140,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -147,11 +150,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Laura      | Youri          | Pepijn               |
-  | ---        | ---            | ---                  | 
-  | Footer     |     Geen       | wat toevoegen        |     
-  |            |                | qua toegankelijkheid |
-  |            | ...            | ...                  | 
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
